@@ -1,0 +1,4 @@
+var links = document.getElementById("links")
+    function toggle() {
+      if (links.style.display == "none") { links.style.display = "block" } else { links.style.display = "none" }
+    }
